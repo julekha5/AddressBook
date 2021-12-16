@@ -56,4 +56,8 @@ public class Person {
 		return "Person [firstName=" + firstName + ", lastName=" + lastName + ", phoneNumber=" + phoneNumber + ", email="
 				+ email + ", address=" + address + "]";
 	}
+
+	public String getFirstName(String string) {
+		return string;
+	}
 }

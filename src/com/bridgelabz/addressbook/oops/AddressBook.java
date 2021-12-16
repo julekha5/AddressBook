@@ -16,8 +16,8 @@ public class AddressBook {
 		System.out.println("Welcome to AddressBook Program");
 		ContactImpl contact = new ContactImpl();
 
-        Scanner sc = new Scanner(System.in);
-        
+		Scanner sc = new Scanner(System.in);
+
 		boolean exit = false;
 		System.out.println("Enter Your Choice");
 
@@ -39,7 +39,7 @@ public class AddressBook {
 //				System.out.println("Delete Contact");
 //				contact.deleteByName();
 //				break;
-       		default:
+			default:
 				exit = true;
 				System.out.println("Exit Choices");
 				break;
