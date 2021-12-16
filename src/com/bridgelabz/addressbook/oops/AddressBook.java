@@ -31,14 +31,14 @@ public class AddressBook {
 				System.out.println("Add New Contact");
 				contact.addContact();
 				break;
-//			case 2:
-//				System.out.println("Update Contact");
-//				contact.updatePerson();
-//				break;
-//			case 3:
-//				System.out.println("Delete Contact");
-//				contact.deleteByName();
-//				break;
+			case 2:
+				System.out.println("Update Contact");
+				contact.updatePerson();
+				break;
+			case 3:
+				System.out.println("Delete Contact");
+				contact.deleteByName();
+				break;
 			default:
 				exit = true;
 				System.out.println("Exit Choices");

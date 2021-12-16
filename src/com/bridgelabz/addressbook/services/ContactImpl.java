@@ -57,7 +57,7 @@ public class ContactImpl implements IContact {
 	// Update contact person using name
 	@Override
 	public void updatePerson() {
- 
+
 		System.out.println("Enter the person name for update");
 		String fname = scanner.next();
 		if (fname.equalsIgnoreCase(person.getFirstName("Julekha"))) {
@@ -119,4 +119,20 @@ public class ContactImpl implements IContact {
 			System.out.println("Person not found");
 		}
 	}
+
+	// Delete Contact Method
+	@Override
+	public void deleteByName() {
+		System.out.println("Enter the person name for delete");
+		String fname = scanner.next();
+
+		if (fname.equals(person.getFirstName("julekha"))) {
+			person.setFirstName(null);
+			System.out.println("Contact deleted successfully...");
+		} else {
+			System.out.println("Contact not found");
+		}
+
+	}
+
 }
